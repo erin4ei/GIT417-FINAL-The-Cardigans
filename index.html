@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- adobe fonts, neue haas grotesk -->
+        <link rel="stylesheet" href="https://use.typekit.net/wry7igu.css">
+    
+        <!-- google fonts, inter -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- link to styles.css -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+        <!-- link to scripts -->
+        <script src="shop.js" defer></script>
+        <script src="contact.js" defer></script>
+        <script src="darkmode.js" defer></script>
+
+        <title>The Cardigans - GIT 417 FINAL</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="nav-container">
+                    <div class="nav-logo">
+                        <a href="#">The Cardigans</a>
+                    </div>
+                    <ul class="nav-menu">
+
+                    <li class="nav-item">
+                        <a href="#music" class="nav-link">music</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#shop" class="nav-link">shop</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#darkmode" class="nav-link" id="dark-mode-toggle" aria-label="Toggle dark mode">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sun" viewBox="0 0 16 16">
+                            <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6m0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8M8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0m0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13m8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5M3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8m10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0m-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0m9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707M4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708"/>
+                            </svg>
+                        </a>
+                    </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="home">
+                <h1 class="sr-only">The Cardigans - Welcome</h1>
+                <div id="hero">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">The Cardigans’ sound is often described as an eclectic fusion of pop, rock, and alternative influences. Alongside catchy melodies, thoughtful lyrics, and lead vocalist Nina Persson’s distinctive voice, their playful approach has resulted in beloved hits like “Lovefool,” “My Favourite Game”, “Step on Me” and over 15 million sold albums – globally. Besides making their mark on the charts, their music has been used to enhance cult TV-series and movies like Baz Luhrmann’s Romeo & Juliet, The Office and The Crown. Further enriching their legacy and solidifying their place in ’90s pop culture and beyond.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="music" class="music">
+                <div class="music-container">
+                    <div class="music-content-wrapper">
+                        <div class="music-image-left">
+                            <img src="images/therestofthebest.jpg" alt="">
+                        </div>
+                        <div class="music-text">
+                            <h1>The Rest Of The Best Vol. 1 & 2 Out Now</h1>
+                            <p>Decades after capturing hearts worldwide with hits like 'Lovefool' and 'My Favourite Game,' The Cardigans return with 'The Rest Of The Best Vol. 1 & 2'. These releases compile rare recordings, alternate takes, international-only releases, and beloved B-sides that showcase the band's versatility beyond their mainstream success. If you're rediscovering the band's playful 'Life' era B-sides or encountering their sophisticated 'Long Gone Before Daylight' outtakes for the first time, this collection will reaffirm why The Cardigans remain one of pop music's most enduring and creatively rich acts.</p>
+                            <!-- listen now button -->
+                            <a href="https://open.spotify.com/album/7gf75mBDdW6f1Vx54YpuBV?si=YPnHFGKNQ5qwcEwyFcvBww" class="music-button">LISTEN NOW</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+            <section class="shop" id="shop">
+                <div class="shop-container">
+                    <h2>Shop</h2>
+                    <div class="shop-content-wrapper">
+                        <!-- LEFT SIDE OF PRODUCT GRID -->
+                        <div class="products-section">
+                            <div class="products-grid">
+                                <!-- product 1 -->
+                                <div class="product-card" data-id="1">
+                                    <div class="product-image">
+                                        <img src="images/yntbn.png" alt="The Cardigans - T-Shirt, You Need To Be Nicer (Black)">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3 class="product-title">THE CARDIGANS - T-SHIRT, YOU NEED TO BE NICER (BLACK)</h3>
+                                        <p class="product-price">$26.00</p>
+                                        <div class="product-actions">
+                                            <button class="add-to-cart-btn" data-id="1">Add to Cart</button>
+                                            <button class="remove-from-cart-btn" data-id="1">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- product 2 -->
+                                <div class="product-card" data-id="2">
+                                    <div class="product-image">
+                                        <img src="images/life.jpg" alt="The Cardigans - T-Shirt, Life">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3 class="product-title">THE CARDIGANS - T-SHIRT, LIFE</h3>
+                                        <p class="product-price">$26.00</p>
+                                        <div class="product-actions">
+                                            <button class="add-to-cart-btn" data-id="2">Add to Cart</button>
+                                            <button class="remove-from-cart-btn" data-id="2">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- product 3 -->
+                                <div class="product-card" data-id="3">
+                                    <div class="product-image">
+                                        <img src="images/tote.jpg" alt="The Cardigans - Tote Bag, Best Of">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3 class="product-title">THE CARDIGANS - TOTE BAG, BEST OF</h3>
+                                        <p class="product-price">$16.00</p>
+                                        <div class="product-actions">
+                                            <button class="add-to-cart-btn" data-id="3">Add to Cart</button>
+                                            <button class="remove-from-cart-btn" data-id="3">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- product 4 -->
+                                <div class="product-card" data-id="4">
+                                    <div class="product-image">
+                                        <img src="images/therestofthebest.jpg" alt="The Cardigans - The Rest Of The Best Vol 1 (CD)">
+                                    </div>
+                                    <div class="product-info">
+                                        <h3 class="product-title">THE CARDIGANS - THE REST OF THE BEST VOL 1 (CD)</h3>
+                                        <p class="product-price">$24.00</p>
+                                        <div class="product-actions">
+                                            <button class="add-to-cart-btn" data-id="4">Add to Cart</button>
+                                            <button class="remove-from-cart-btn" data-id="4">Remove</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- pagination under shop selection -->
+                            <div class="pagination">
+                                <button class="pagination-btn" id="prev-page">← Previous</button>
+                                <button class="pagination-btn active">1</button>
+                                <button class="pagination-btn">2</button>
+                                <button class="pagination-btn">3</button>
+                                <button class="pagination-btn" id="next-page">Next →</button>
+                            </div>
+                        </div>
+
+                        <!-- RIGHT SIDE OF PRODUCT GRID -->
+                        <div class="cart-section">
+                            <div class="cart-container">
+                                <h3>Your Cart</h3>
+                                <div class="cart-items" id="cart-items">
+                                    <!-- cart items will be added here -->
+                                    <p class="empty-cart-message">Your cart is empty</p>
+                                </div>
+                                
+                                <div class="cart-summary">
+                                    <div class="summary-row">
+                                        <span>Subtotal:</span>
+                                        <span id="subtotal">$0.00</span>
+                                    </div>
+                                    <div class="summary-row">
+                                        <span>Shipping:</span>
+                                        <span id="shipping">$5.00</span>
+                                    </div>
+                                    <div class="summary-row">
+                                        <span>Tax (7%):</span>
+                                        <span id="tax">$0.00</span>
+                                    </div>
+                                    <div class="summary-row total">
+                                        <span>Total:</span>
+                                        <span id="total">$5.00</span>
+                                    </div>
+                                </div>
+                                
+                                <button class="checkout-btn" id="checkout-btn">CHECK OUT</button>
+                                <button class="clear-cart-btn" id="clear-cart-btn">Clear Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                <section class="contact" id="contact">
+                    <div class="contact-container">
+                        <h2>Contact Us</h2>
+                        <div class="contact-content-wrapper">
+                            <!-- Contact Form (Left Side) -->
+                            <div class="contact-form-section">
+                                <form id="contact-form" class="contact-form">
+                                    <div class="form-group">
+                                        <label for="full-name">Full Name</label>
+                                        <input type="text" id="full-name" name="full-name" placeholder="Enter your full name">
+                                        <div class="error-message" id="name-error"></div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="email">Email Address</label>
+                                        <input type="email" id="email" name="email" placeholder="Enter your email address">
+                                        <div class="error-message" id="email-error"></div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="phone">Phone Number</label>
+                                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                                        <div class="error-message" id="phone-error"></div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label>Preferred Method of Contact *</label>
+                                        <div class="radio-group">
+                                            <label class="radio-option">
+                                                <input type="radio" name="contact-method" value="phone" checked>
+                                                <span class="radio-custom"></span>
+                                                Phone
+                                            </label>
+                                            <label class="radio-option">
+                                                <input type="radio" name="contact-method" value="email">
+                                                <span class="radio-custom"></span>
+                                                Email
+                                            </label>
+                                        </div>
+                                        <div class="error-message" id="method-error"></div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="comments">Your Message</label>
+                                        <textarea id="comments" name="comments" rows="4" placeholder="Enter your message..."></textarea>
+                                        <div class="error-message" id="comments-error"></div>
+                                    </div>
+                                    
+                                    <button type="submit" class="submit-btn">SUBMIT</button>
+                                </form>
+                            </div>
+                            
+                            <!-- social media section -->
+                            <div class="contact-info-section">
+                                <div class="contact-image">
+                                    <img src="images/music.jpeg" alt="The Cardigans performing">
+                                </div>
+                                <div class="social-links">
+                                    <div class="social-icons-horizontal">
+                                        <a href="https://open.spotify.com/artist/1tqZaCwM57UFKjWoYwMLrw" class="social-icon-horizontal" aria-label="Spotify">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+                                            </svg>
+                                        </a>
+                                        <a href="https://music.apple.com/us/artist/the-cardigans/259828" class="social-icon-horizontal" aria-label="Apple Music">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16" fill="currentColor">
+                                                <path fill-rule="evenodd" d="m10.995 0 .573.001q.241 0 .483.007c.35.01.705.03 1.051.093.352.063.68.166.999.329a3.36 3.36 0 0 1 1.47 1.468c.162.32.265.648.328 1 .063.347.084.7.093 1.051q.007.241.007.483l.001.573v5.99l-.001.573q0 .241-.008.483c-.01.35-.03.704-.092 1.05a3.5 3.5 0 0 1-.33 1 3.36 3.36 0 0 1-1.468 1.468 3.5 3.5 0 0 1-1 .33 7 7 0 0 1-1.05.092q-.241.007-.483.008l-.573.001h-5.99l-.573-.001q-.241 0-.483-.008a7 7 0 0 1-1.052-.092 3.6 3.6 0 0 1-.998-.33 3.36 3.36 0 0 1-1.47-1.468 3.6 3.6 0 0 1-.328-1 7 7 0 0 1-.093-1.05Q.002 11.81 0 11.568V5.005l.001-.573q0-.241.007-.483c.01-.35.03-.704.093-1.05a3.6 3.6 0 0 1 .329-1A3.36 3.36 0 0 1 1.9.431 3.5 3.5 0 0 1 2.896.1 7 7 0 0 1 3.95.008Q4.19.002 4.432 0h.573zm-.107 2.518-4.756.959H6.13a.66.66 0 0 0-.296.133.5.5 0 0 0-.16.31c-.004.027-.01.08-.01.16v5.952c0 .14-.012.275-.106.39-.095.115-.21.15-.347.177l-.31.063c-.393.08-.65.133-.881.223a1.4 1.4 0 0 0-.519.333 1.25 1.25 0 0 0-.332.995c.031.297.166.582.395.792.156.142.35.25.578.296.236.047.49.031.858-.043.196-.04.38-.102.555-.205a1.4 1.4 0 0 0 .438-.405 1.5 1.5 0 0 0 .233-.55c.042-.202.052-.386.052-.588V6.347c0-.276.08-.35.302-.404.024-.005 3.954-.797 4.138-.833.257-.049.378.025.378.294v3.524c0 .14-.001.28-.096.396-.094.115-.211.15-.348.178l-.31.062c-.393.08-.649.133-.88.223a1.4 1.4 0 0 0-.52.334 1.26 1.26 0 0 0-.34.994c.03.297.174.582.404.792a1.2 1.2 0 0 0 .577.294c.237.048.49.03.858-.044.197-.04.381-.098.556-.202a1.4 1.4 0 0 0 .438-.405q.173-.252.233-.549a2.7 2.7 0 0 0 .044-.589V2.865c0-.273-.143-.443-.4-.42-.04.003-.383.064-.424.073"/>
+                                            </svg>
+                                        </a>
+                                        <a href="https://www.youtube.com/@thecardigansofficial" class="social-icon-horizontal" aria-label="YouTube">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                                            </svg>
+                                        </a>
+                                        <a href="https://www.instagram.com/thecardigansofficial/?hl=en" class="social-icon-horizontal" aria-label="Instagram">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        </main>
+        <footer class="copyright">
+            <p>© Copyright 2025 Erin Igpit</p>
+            <p>This site is for educational purposes only.</p>
+        </footer>
+    </body>
+</html>
